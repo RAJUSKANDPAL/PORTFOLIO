@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Projects</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #83a4d4, #b6fbff);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      background-color: #004d7a;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .container {
+      flex: 1;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+      width: 100%;
+    }
+    .project-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    .project-title {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: #004d7a;
+    }
+    .project-desc {
+      font-size: 1rem;
+      color: #555;
+    }
+    footer {
+      background-color: #004d7a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      box-shadow: 0 -2px 6px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>My Projects</h1>
+</header>
+
+<section class="container">
+  <div class="project-card">
+    <div class=" EXP-1: Streamlit Spiral Visualization">Project 1 Streamlit Spiral Visualization</div>
+    <div class="project-desc">Welcome to the Streamlit Spiral Visualization App! This project demonstrates a simple and interactive Python application built with Streamlit to visualize a spiral.</div>
+    <a href="https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-01">LINK</a>
+  </div>
+  
+  <div class="project-card">
+    <div class="EXP-2: Binary Classification WebApp">Project 2 Binary Classification WebApp</div>
+    <div class="project-desc">Welcome to Docker Experiment 2! This project demonstrates the power of Docker to containerize a machine learning web application built using Streamlit.</div>
+    <a href="https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-02">LINK</a>
+  </div>
+  
+  <div class="project-card">
+    <div class="EXP-3: Python Logging with Docker">Project 3 Python Logging with Docker</div>
+    <div class="project-desc">This project demonstrates how to create a Python application that logs data continuously to a file and runs it inside a Docker container.</div>
+    <a href="https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-03">LINK</a>
+  </div>
+
+  <div class="project-card">
+    <div class="EXP-4: Streamlit + PostgreSQL">Project 4 Streamlit + PostgreSQL</div>
+    <div class="project-desc">This project demonstrates how to set up a Streamlit application that connects to a PostgreSQL database using Docker. </div>
+    <a href="https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-04">LINK</a>
+  </div>
+  
+  <div class="project-card">
+    <div class="EXP-5: MySQL Docker Container">Project 5 MySQL Docker Container</div>
+    <div class="project-desc">This repository contains a Docker setup for running a MySQL container with an initial database setup.</div>
+    <a href="https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-05">LINK</a>
+  </div>
+
+  <div class="project-card">
+    <div class=" EXP-6: Docker Network Experiment">Project 6 Docker Network Experiment</div>
+    <div class="project-desc">This repository contains a Docker setup for running a MySQL container with an initial database setup.</div>
+    <a href="https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-06">LINK</a>
+  </div>
+
+  <div class="project-card">
+    <div class=" EXP-7: ML Model Deployment with Evidently">Project 7 ML Model Deployment with Evidently</div>
+    <div class="project-desc">This repository contains a Dockerized Streamlit application for running an ML model with Evidently AI. The setup ensures seamless deployment and execution of the model within a containerized environment. </div>
+    <a href="https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-07">LINK</a>
+  </div>
+
+  <div class="project-card">
+    <div class="EXP-8: Deploying on AWS EC2">Project 8 Deploying on AWS EC2</div>
+    <div class="project-desc">This guide walks through deploying an application on AWS EC2 using Docker. Follow the steps below to set up the environment, transfer files, build the Docker image, and run the application.</div>
+    <a href="https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-08">LINK</a>
+  </div>
+
+  <div class="project-card">
+    <div class=" EXP-9: Minikube with Docker">Project 9 Minikube with Docker</div>
+    <div class="project-desc">Run Kubernetes Locally with Minikube & Docker.</div>
+    <a href="https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-09">LINK</a>
+  </div>
+
+  <div class="project-card">
+    <div class="  EXP-10: Docker Bake">Project 10 Docker Bake</div>
+    <div class="project-desc">This guide demonstrates how to use Docker Bake to create multi-architecture images for Python 3.9 and push them to Docker Hub.</div>
+    <a href="https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-10">LINK</a>
+  </div>
+
+  <div class="project-card">
+    <div class="  EXP-11: Bakery Foundation Example on Windows ">Project 11 Bakery Foundation Example on Windows</div>
+    <div class="project-desc">This guide provides step-by-step instructions on setting up and using Packer to create a machine image (AMI) on AWS. It covers installation, configuration, and deployment on Windows.</div>
+    <a href="https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-11">LINK</a>
+  </div>
+</section>
+
+<footer>
+  &copy; Rajus Kandpal.
+</footer>
+
+</body>
+</html>
